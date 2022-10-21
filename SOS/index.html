@@ -32,7 +32,7 @@
             </div>
             <div class="profile__name">
               <!-- edit 3 begin -->
-              김환희_201820224 (김채린_201820219/문예은_201820229)
+              김환희_201820224
               <!-- edit 3 end -->
             </div>
           </div>
@@ -43,7 +43,14 @@
       <!-- edit 4 begin -->
       <div class="container">
         <!-- example of image begin -->
+        <img src="./imgs/Speakey_01_Main.jpg" loading="lazy" />
         <img src="./imgs/Speakey_02_Overview.jpg" loading="lazy" />
+        <lottie-player
+          src="./imgs/Speakey_03_Background_1.json"
+          style="max-width: 1440px"
+          loop
+          autoplay
+        ></lottie-player>
         <img src="./imgs/Speakey_03_Background.jpg" loading="lazy" />
         <img src="./imgs/Speakey_04_Survey.jpg" loading="lazy" />
         <img src="./imgs/Speakey_05_Problem.jpg" loading="lazy" />
@@ -58,46 +65,42 @@
         <img src="./imgs/Speakey_14_Component.jpg" loading="lazy" />
         <img src="./imgs/Speakey_15_Component.jpg" loading="lazy" />
         <img src="./imgs/Speakey_16_Onboarding.jpg" loading="lazy" />
-        <script>
-          var player;
-          function onYouTubeIframeAPIReady() {
-            player = new YT.Player('player', {
-              width: '100%',
-              videoId: 'https://youtu.be/ekanhZ-v9Y4',
-              playerVars: { autoplay: 1, playsinline: 1 },
-              events: { onReady: onPlayerReady },
-            });
-          }
-          function onPlayerReady(e) {
-            e.target.mute();
-            e.target.playVideo();
-          }
-        </script>
         <!-- example of image end -->
         <!-- example of video begin -->
-        <video autoplay muted loop>
-          <source src="./imgs/Speakey_Mov01_Category_2.mp4" />
+        <video autoplay muted loop playsinline>
+          <source src="./imgs/Speakey_17_1_Schedule.mp4" />
         </video>
         <img src="./imgs/Speakey_18_Mentor.jpg" loading="lazy" />
-        <video autoplay muted loop>
-          <source src="./imgs/Speakey_Mov02_Training_1.mp4" />
+        <video autoplay muted loop playsinline>
+          <source src="./imgs/Speakey_19_Training.mp4" />
         </video>
         <img src="./imgs/Speakey_20_SpeechCategory.jpg" loading="lazy" />
         <img src="./imgs/Speakey_21_SpeechCategory.jpg" loading="lazy" />
-        <video autoplay muted loop>
-          <source src="./imgs/Speakey_Mov03_WebAnalysis.mp4" />
+        <video autoplay muted loop playsinline>
+          <source src="./imgs/Speakey_22_WebAnalysis.mp4" />
         </video>
-        <video autoplay muted loop>
-          <source src="./imgs/Speakey_Mov04_Practice.mp4" />
+        <video autoplay muted loop playsinline>
+          <source src="./imgs/Speakey_23_Practice.mp4" />
         </video>
-        <img src="./imgs/Speakey_24_Webaccent.jpg" />
-        <video autoplay muted loop>
-          <source src="./imgs/Speakey_Mov05DataCloud.mp4" />
+        <img src="./imgs/Speakey_24_Webaccent.jpg" loading="lazy" />
+        <video autoplay muted loop playsinline>
+          <source src="./imgs/Speakey_25_DataCloud.mp4" />
         </video>
-        <video controls poster="./imgs/Speakey_Promotion_Thumbnail.jpg">
-          <source src="./imgs/Speakey_Promotion.mp4" />
-        </video>
-        <img src="./imgs/Speakey_26_Mockup1.jpg" />
+        <iframe
+          width="100%"
+          src="https://www.youtube.com/embed/rslhYdQEFB4"
+          controls="0&"
+          autoplay="1&"
+          mute="1&"
+          loop="1&"
+          playlist="rslhYdQEFB4"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+          style="aspect-ratio: 16 / 9"
+        ></iframe>
+        <img src="./imgs/Speakey_26_Mockup1.jpg" loading="lazy" />
+        <img src="./imgs/Speakey_27_Last.jpg" loading="lazy" />
         <!-- example of video end -->
         <!-- example of lottie begin -->
         <!-- example of lottie end -->
