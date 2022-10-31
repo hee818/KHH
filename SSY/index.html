@@ -47,6 +47,28 @@
           <source src="./imgs/1_thumbnail.mp4" />
         </video>
         <img src="./imgs/2.jpg" loading="lazy" />
+        <img id="img" src="./imgs/2_1.jpg" />
+        <button
+          type="button"
+          style="
+            background-color: black;
+            color: #ffc328;
+            background: black;
+            border: 1px solid #ffc328;
+            border-radius: 20px;
+            width: 450px;
+            height: 50px;
+            margin: auto;
+          "
+          onclick="toggleImg()"
+        >
+          위 조항을 모두 읽었으며 약관에 동의합니다.
+        </button>
+        <script>
+          function toggleImg() {
+            document.getElementById('img').src = './imgs/2_2.jpg';
+          }
+        </script>
         <img src="./imgs/3.jpg" loading="lazy" />
         <img src="./imgs/4.jpg" loading="lazy" />
         <img src="./imgs/4_2.jpg" loading="lazy" />
@@ -54,12 +76,9 @@
         <img src="./imgs/6.jpg" loading="lazy" />
         <img src="./imgs/7.jpg" loading="lazy" />
         <img src="./imgs/8.jpg" loading="lazy" />
-        <lottie-player
-          src="./imgs/9_cctv.json"
-          style="max-width: 1440px"
-          loop
-          autoplay
-        ></lottie-player>
+        <video autoplay muted loop>
+          <source src="./imgs/9_cctv_motion.mp4" />
+        </video>
         <img src="./imgs/10.jpg" loading="lazy" />
         <img src="./imgs/11.jpg" loading="lazy" />
         <img src="./imgs/11_2.jpg" loading="lazy" />
